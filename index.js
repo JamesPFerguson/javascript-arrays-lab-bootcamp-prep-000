@@ -26,6 +26,6 @@ function removeLastKitten() {
  return freshkit
 }
 function removeFirstKitten() {
-  var freshkit = kittens.slice(0)
+  var freshkit = kittens.slice(1)
   return freshkit
 }
